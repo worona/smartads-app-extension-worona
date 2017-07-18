@@ -1,0 +1,60 @@
+{
+  "name": "smartads-app-extension-worona",
+  "version": "1.0.0",
+  "description": "Smartads extension for Worona Apps & PWAs",
+  "scripts": {
+    "start": "node node_modules/worona-packages/dist/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/worona/smartads-app-extension-worona.git"
+  },
+  "keywords": [
+    "smartads",
+    "ads",
+    "worona",
+    "adserver",
+    "worona",
+    "package",
+    "worona",
+    "package"
+  ],
+  "author": "hi.pablo.postigo@gmail.com",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.6.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0",
+    "vendors-dashboard-worona": "1.4.0",
+    "worona-packages": "1.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/worona/smartads-app-extension-worona/issues"
+  },
+  "homepage": "https://github.com/worona/smartads-app-extension-worona#readme",
+  "worona": {
+    "authors": [
+      "hi.pablo.postigo@gmail.com"
+    ],
+    "private": false,
+    "dashboard": {
+      "type": "extension",
+      "namespace": "smartads",
+      "menu": {
+        "app": {
+          "niceName": "Smartads",
+          "category": "Extensions",
+          "order": 3
+        }
+      }
+    },
+    "app": {
+      "type": "extension",
+      "namespace": "smartads",
+      "listed": false
+    }
+  }
+}
